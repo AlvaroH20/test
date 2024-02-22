@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    color: navy;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ff8c00; /* Color llamativo para las etiquetas */
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #6ac2c2;
+}
+table {
+    background-color: #6ac2c2;
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+
+#lblResultado {
+    font-weight: bold;
+    color: green; /* Color llamativo para el resultado */
+}
+
+#lblErrores {
+    color: red;
+    font-style: italic;
+}
+#lblErroresN {
+    color: red;
+    font-style: italic;
+}
+
+#lblProvincia, #lblTipoVehi, #lblPicoPlaca {
+    color: #ff8c00; /* Color llamativo para las etiquetas */
+    margin-top: 10px; /* Añade un espacio arriba para separar las líneas */
+}

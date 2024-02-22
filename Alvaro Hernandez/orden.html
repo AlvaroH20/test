@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <script src="orden.js"></script>
+    <script src="utilitarios.js"></script>
+    <link rel="stylesheet" href="placas.css"/>
+</head>
+<body onload="mostrarPersonas()">
+    
+        <h2>INGRESAR NOMBRE</h2>
+        <input type="text" id="cajaNombre"/>
+        <h3 id="lblErroresN"></h3>
+        
+
+        <h2>INGRESAR EDAD</h2>
+        <input type="text" id="cajaEdad"/>
+        <h3 id="lblErrores"></h3>
+        <input type="button" value="GUARDAR" onclick="agregarPersona()"/>
+        <input type="button" value="ENCONTRAR MAYOR" onclick="determinarMayor()"/>
+        <input type="button" value="ENCONTRAR MENOR" onclick="determinarMenor()"/>
+        
+<div id="tablaPersonas">
+
+</div>
+
+<div id="mayoresYMenores">
+
+</div>
+ 
+</body> 
